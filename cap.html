@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="capsheet.js"></script>
+    <style>
+        .back{
+            background-image: url("qh.jpg");
+            background-size: cover;
+        }
+        .cen{
+            margin-top: 50px;
+            margin-left: 50px;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 80px;
+            color: beige;
+        }
+        .but{
+            margin-top: 100px;
+            margin-left: 550px;
+            width: 450px;
+            height: 70px;
+            text-align: center;
+            font-size: large;
+            background-color:aqua;
+            color:brown;
+        }
+        .asd{
+            background-color:aquamarine;
+        }
+        .butu{
+            margin-top: 50px;
+            margin-left: 650px;
+            width: 250px;
+            height: 70px;
+            text-align: center;
+            font-size: large;
+            background-color: antiquewhite;
+            color:brown;
+        }
+        .spa img{
+         /* justify-content: space-between; */
+            margin: 3%;
+            width: 150px;
+        }
+    </style>
+</head>
+<body class="back">
+    <p class="cen">WHIP-UP GIFT BOXES</p>
+    <input type="number" id="num" class="but" placeholder="ENTER THE NUMBER OF GIFTS TO GENERATE" name="number" required>
+    <button type="submit" class="butu" onclick="giftgen()">SUBMIT</button>
+    <a href="cap.html"><button class="butu">RESET</button></a>
+    <br>
+    <fieldset class="asd">
+    <div id="output" class="spa"></div></fieldset>
+</body>
+</html>
